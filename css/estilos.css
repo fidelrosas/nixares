@@ -1,0 +1,294 @@
+@font-face{
+    font-family:Roboto-Bold;
+src:url(../font/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family:Roboto-Regular;
+src:url(../font/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family:Roboto-Light;
+src:url(../font/Roboto-Light.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+nav{
+    width: 1366px;
+    height: 79px;
+    margin: 0px auto;
+}
+.logo{
+    width: 316px;
+    height: 79px;
+    float: left;
+}
+.logo img{
+    height: 79px;
+}
+.menu{
+    width: 450px;
+    height: 79px;
+    float: right;
+}
+.menu-items{
+    padding: 0;
+    margin-top: 25px;
+}
+.menu-items li{
+    display: inline;
+}
+.menu-items li a{
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 17px;
+    background-color: #F7F7F7;
+    color:#007acc;
+    border: 3px solid white;
+    transition: all 300ms;
+}
+.menu-items li a:hover{
+    background-color:#62c7e7;
+    color: #fff;
+    transition: all 300ms;
+}
+header{
+    width: 1366px;
+    height: 740px;
+    margin: 0px auto;
+}
+header img{
+    width: 100%;
+}
+/* BUSCA TU DESTINO */
+.destino{
+    width: 1366px;
+    height: 602px;
+    margin: 0px auto;
+    text-align: center;
+}
+.destino h1{
+    font-family: Roboto-Bold;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    line-height: 130px;
+}
+.destino p{
+    text-align: justify;
+    font-family: Roboto-Light;
+    color: black;
+    margin: 0px 50px;
+    font-size: 20px;
+}
+.radius{
+    width: 304px;
+    height: 304px;
+    border-radius:50%;
+    display: inline-block;
+    margin: 40px 10px;
+    overflow: hidden;
+    position: relative;    
+}
+.radius img{
+    width:100%;
+    transition: all 300ms;
+    filter: brightness(0.7);
+}
+.radius img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+    padding: 0;
+}
+.radius h1{
+    position: absolute;
+    font-family: Roboto-Bold;
+    top: 80px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 28px;
+    color: white;
+    text-shadow: -4px 4px 3px black;
+}
+/* PROGRAMAS ESPECIALES */
+.programas{
+    width: 1366px;
+    height: 806px;
+    background: #91d8ee;
+    margin: 0px auto;
+    text-align: center;    
+}
+.programas h1{
+    text-align: center;
+    font-family: Roboto-Bold;
+    font-size: 30px;
+    color: white;
+    line-height: 150px;
+}
+.programa{
+    width: 410px;
+    height: 575px;
+    margin: 8px 18px;
+    display: inline-block;
+    background: white;
+}
+.articulo{
+    width: 410px;
+    height: 270px;
+    overflow: hidden;
+}
+.articulo img{
+    filter:grayscale(100%);
+    transform: scale(1);
+    transition: all 300ms;
+}
+
+.articulo img:hover{
+    filter:grayscale(0%);
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+.programa h2{
+    font-family: Roboto-Bold;
+    margin: 25px auto;
+}
+.programa p{
+    font-family: Roboto-Light;
+    margin: 0px 25px;
+    text-align: justify;
+}
+.programa h3{
+    width: 203px;
+    height: 54px;
+    background: #09aad9;
+    color: white;
+    font-family: Roboto-light;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 50px;
+    transition: all 300ms;
+}
+.programa h3:hover{
+    background: orangered;
+    transition: all 300ms;
+}
+
+/* OFERTAS Y DESCUENTOS */
+.ofertas{
+    width: 1366px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.descuentos{
+    width: 455px;
+    position: relative;
+
+}
+
+.descuentos h1{
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto; 
+    left: 0;
+    right: 0;
+    top: 85px;
+    color: white;
+    font-size: 40px;
+    text-shadow: -4px 4px 5px black;
+}
+.ofertas h1{
+    width: 100%;
+    font-family: Roboto-Bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px auto;
+}
+.descuentos img{
+    width: 100%;
+    height: 100%;
+}
+/* SECTION NIXARES TRAVEL */
+.nixares{
+    width:1366px;
+    height: 723px;
+    margin: 0px auto;
+    position: relative;
+}
+.nixares img{
+    width: 100%;
+}
+.nixares h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: Roboto-Bold;
+    font-size: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 130px;
+    text-shadow: -4px 3px 0 #34D16E, -14px 7px 0 #0A0E27;
+}
+.nixares h2{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: Roboto-Regular;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 280px;
+    text-shadow: -4px 3px 0 #34D16E, -14px 7px 0 #0A0E27;
+}
+.nixares div{
+    position: absolute;
+    color:white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 380px;
+    background: #58C5E6;
+    border-radius: 50%;
+    line-height: 100px;
+    transition: all 300ms;
+}
+.nixares div:hover{
+    background: rgb(233, 108, 6);
+    transition: all 300ms;
+    cursor: pointer;
+}
+/* PIE DE PÁGINA */
+footer{
+    width: auto;
+    height: 100px;
+    margin: auto;
+    background: beige;
+    padding: 35px;
+}
+footer p{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    font-family: Roboto-Light;
+}
